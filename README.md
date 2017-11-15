@@ -4,7 +4,6 @@ Generating random song lyrics with an LSTM network after training on a 1M charac
 
 
 Results so far:
-* LSTM layers: 128, Dropout, Dense(100), Dense(50), Softmax; Window: 40, stride: 3 - 2.5364 (30epochs)
 * LSTM layers: 128, Dense(50), Softmax; Window: 40, stride: 3 - 1.1538 (30 epochs)
 
 
