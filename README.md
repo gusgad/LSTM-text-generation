@@ -5,6 +5,7 @@ Generating random song lyrics with an LSTM network after training on a 1M charac
 
 Results so far:
 * LSTM layers: 128, Dense(50), Softmax; Window: 40, stride: 3 - 1.1538 (30 epochs)
+* LSTM layers: 128, Dense(128), Dropout(0.5), Dense(50), Softmax; Window: 40, stride: 3 - 1.2812 (30 epochs)
 
 
 Given a sentence "Gabriele loves dancing\nall day and night" with a training loss of 1.1538, the network outputs something as the following:
